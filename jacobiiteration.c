@@ -57,7 +57,7 @@ int main(){
 		x1=find_x(coeff_x, coeff_y, coeff_z, value, x, y, z);
 		y1=find_y(coeff_x1, coeff_y1, coeff_z1, value1, x, y, z);
 		z1=find_z(coeff_x2, coeff_y2, coeff_z2, value2, x, y, z);
-		printf("x%d = %f\ny%d = %f\nz%d = %f\n", i,x1,i,y1,i,z1);
+		printf("x%d = %f\ny%d = %f\nz%d = %f\n", i+1,x1,i+1,y1,i+1,z1);
 		x = x1;
 		y = y1;
 		z = z1;
